@@ -463,12 +463,17 @@ th:last-child{
     padding:5px 10px ;
     color: white;
     background-color: orange;
-    text-align: left;
+    /* text-align: left; */
 }
 
-.orders th:nth-child(2){
-    text-align: right;
+.orders .order-details-btn{
+    color: white;
+    background-color: orange;
 }
+
+/* .orders th:nth-child(2){
+    text-align: right;
+} */
 .orders td{
     padding: 10px 20px ;
 }
@@ -498,6 +503,16 @@ th:last-child{
 }
 #contact span{
     color: orange;
+}
+
+.cart-quantity{
+    background-color: orange;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 50%;
+    margin: -5px;
+    font-size: 1rem;
+
 }
 
 
