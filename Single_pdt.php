@@ -106,7 +106,9 @@ if (isset($_GET['product_id'])) {
       </div>
       <h1 class="p-name">Sports shoes</h1>
       <h5 class="p-price">Rs 1200</h5>
-      <button class="buy-btn">Shop Now</button>
+      <!-- <button class="buy-btn">Shop Now</button> -->
+      <a href="place_order.php"><button class="buy-btn">Shop Now</button></a>
+
     </div>
 
     <div class="product text-center col-lg-3 col-md-4 col-sm-12">

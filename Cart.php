@@ -1,8 +1,8 @@
 <?php
-session_start();
+ session_start();
 if (!isset($_SESSION['cart'])) {
   $_SESSION['cart'] = array();
-};
+}
 
 if (!isset($_SESSION['total'])) {
   $_SESSION['total'] = 0;

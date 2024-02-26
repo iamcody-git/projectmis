@@ -1,5 +1,8 @@
+<?php 
+ session_start();
+?>
 <?php
-session_start();
+// session_start();
 include('server/connection.php');
 
 if (!isset($_SESSION['logged_in'])) {

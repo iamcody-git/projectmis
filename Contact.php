@@ -1,3 +1,6 @@
+<?php 
+ session_start();
+?>
 <?php include('Backend/Header.php'); ?>
 
 <!-- contact -->
