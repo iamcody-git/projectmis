@@ -10,8 +10,7 @@
     <h5>NEW ARRIVAL</h5>
     <h1><span>Best PRICE</span> THIS SEASON</h1>
     <p>Lorem ipsum dolor sit amet. affotable price</p>
-    <!-- <button>Shop Now</button> -->
-    <a href="single_pdt.php?product_id=<?php echo $row['product_id']; ?>"><button class="buy-btn">Shop Now</button></a>
+    <a href="Shop.php"><button class="buy-btn">Shop Now</button></a>
 
   </div>
 </section>
@@ -35,7 +34,7 @@
       <div class="details">
         <h2>Extremely Awesome Shoes</h2>
         <!-- <button class="text-uppercase">Shop Now</button> -->
-        <a href="single_pdt.php?product_id=<?php echo $row['product_id']; ?>"><button class="buy-btn">Shop Now</button></a>
+        <a href="Shop.php"><button class="buy-btn">Shop Now</button></a>
 
       </div>
     </div>
@@ -46,7 +45,7 @@
       <div class="details">
         <h2>Extremely Awesome Jacket</h2>
         <!-- <button class="text-uppercase">Shop Now</button> -->
-        <a href="single_pdt.php?product_id=<?php echo $row['product_id']; ?>"><button class="buy-btn">Shop Now</button></a>
+        <a href="Shop.php"><button class="buy-btn">Shop Now</button></a>
 
       </div>
     </div>
@@ -57,7 +56,7 @@
       <div class="details">
         <h2>50% OFF Watch</h2>
         <!-- <button class="text-uppercase">Shop Now</button> -->
-        <a href="single_pdt.php?product_id=<?php echo $row['product_id']; ?>"><button class="buy-btn">Shop Now</button></a>
+        <a href="Shop.php"><button class="buy-btn">Shop Now</button></a>
 
       </div>
     </div>

@@ -8,9 +8,9 @@ if (isset($_GET['product_id'])) {
   $stmt->execute();
 
   $product = $stmt->get_result();
-} else {
-  header('location:Main.php');
-}
+} 
+
+if($product->num_rows > 0){
 ?>
 
 <?php include('Backend/Header.php'); ?>
@@ -59,6 +59,12 @@ if (isset($_GET['product_id'])) {
   </div>
 </section>
 
+<?php } else{
+  header('location:Main.php');
+  exit;
+} 
+?>
+
 <!-- single product -->
 <section id="related product " class="my-5 pb-5">
   <div class="container text-center mt-5 py-5">
@@ -76,7 +82,7 @@ if (isset($_GET['product_id'])) {
         <ion-icon name="star-outline"></ion-icon>
         <ion-icon name="star-outline"></ion-icon>
       </div>
-      <h1 class="p-name">jacket</h1>
+      <h1 class="p-name" >jacket</h1>
       <h5 class="p-price">RS2652</h5>
       <button class="buy-btn">Shop Now</button>
 

@@ -21,11 +21,11 @@ if(isset($_POST['order_pay_btn'])){
 
   <?php if(isset($_SESSION['total']) && $_SESSION['total']!=0){ ?>
       <p>Total Payment: Rs. <?php  echo $_SESSION['total'];?> </p>
-      <input class="btn btn-primary" type="submit" value="Pay Now" />
+      <a href="./khalti-php/pay.php"><input class="btn btn-primary" type="submit" value="Pay Now" /></a>
 
       <?php } else if(isset($_POST['order_status']) && $_POST['order_status'] == "on_hold"){  ?>
       <p>Total payment: Rs <?php echo $_POST['order_total_price']; ?></p>
-      <input class="btn btn-primary" type="submit" value="Pay Now" />
+      <a href="./khalti-php/pay.php"><input class="btn btn-primary" type="submit" value="Pay Now" /></a>
 
       <?php } else { ?>
         <p> You donnot have an order</p>
