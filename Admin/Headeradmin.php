@@ -30,7 +30,11 @@ include('../server/connection.php');
 
         <div class="navbar-nav">
             <div class="nav-item text-nowrap">
-                
+                <div class="nav-item text-nowrap ">
+                <?php if(isset($_SESSION['admin_logged_in'])){ ?>
+                <a href="../Main.php" class="nav-link px-3">Userpage</a>
+                <?php }?>
+            </div> 
                 <?php if(isset($_SESSION['admin_logged_in'])){ ?>
                 <a href="login.php" class="nav-link px-3">Sign Out</a>
 
