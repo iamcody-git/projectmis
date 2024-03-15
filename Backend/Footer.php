@@ -46,9 +46,13 @@
 
     <div class="copyright mt-5 ">
       <div class="row container mx-auto">
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-          <img src="Frontend/Images/khalti2.png">
-        </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              
+              <img src="Frontend/Images/khalti2.png" alt="Khalti Payment">
+              
+      </div>
+
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4 text-nowrap mb-2">
           <p>eCommerce @2025 All Rights are Reserved</p>
         </div>
